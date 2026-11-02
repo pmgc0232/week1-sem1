@@ -36,6 +36,10 @@ class Shape:
 
         self.colour = colour
 
+class Circle(Shape):
+    def __init__(self, radius):
+        super.__init(self.position, self.colour)
+        self.radius = radius
 
 # Implement your Circle class here
 # Make sure that it inherits properly from Shape!
